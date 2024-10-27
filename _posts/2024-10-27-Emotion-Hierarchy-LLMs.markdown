@@ -26,7 +26,7 @@ To advance both the scientific understanding and ethical considerations of emoti
 
 Inspired by [emotion wheels](https://en.wikipedia.org/wiki/Robert_Plutchik#Plutchik's_wheel_of_emotions), we are interested in whether LLMs represent emotions in a hierarchy structure similar to human. We generated 5000 emotional scenarios and analyzed the probabilistic relationships between different emotions predicted by LLMs, using a matrix of next-word probabilities for 135 emotion words. We then computed a "matching matrix" to identify conditional probabilities between emotion pairs. When an LLM outputs an emotion (e.g. "joy") with high probability whenever another emotion (e.g. "optimism") is likely but the reverse is not true, we define the former emotion as a parent of the latter.
 
-![]({{ site.baseurl }}assets/Emotion-Hierarchy-LLMs/overview-hierarchy_4.pdf)
+![]({{ site.baseurl }}/assets/Emotion-Hierarchy-LLMs/overview-hierarchy_4.pdf)
 
 These structures are visually represented as emotion trees, showing the dependencies between various emotional states.
 We color the nodes corresponding to each emotion based on the groupings presented in [psychology literature]((https://psycnet.apa.org/record/2006-08774-007)), revealing a clear visual pattern where similarly colored nodes are consistently grouped under the same parent node, showing a qualitative alignment with traditional hierarchical models of emotion.
