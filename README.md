@@ -1,4 +1,4 @@
-Welcome to the Physics of Intelligence Blogs! Our blog posts contain technical (yet accessible) introduction to our recent work and ideas.
+Welcome to the [Physics of Intelligence Lab Blogs](https://phys-ai.github.io/blog/)! Our blog posts contain technical (yet accessible) introduction to our recent work and ideas.
 
 This site is built using [Jekyll](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll) [minima theme](https://github.com/jekyll/minima/tree/master). 
 
