@@ -26,24 +26,21 @@ To advance both the scientific understanding and ethical considerations of emoti
 
 Inspired by [emotion wheels](https://en.wikipedia.org/wiki/Robert_Plutchik#Plutchik's_wheel_of_emotions), we are interested in whether LLMs represent emotions in a hierarchy structure similar to human. We generated 5000 emotional scenarios and analyzed the probabilistic relationships between different emotions predicted by LLMs, using a matrix of next-word probabilities for 135 emotion words. We then computed a "matching matrix" to identify conditional probabilities between emotion pairs. When an LLM outputs an emotion (e.g. "joy") with high probability whenever another emotion (e.g. "optimism") is likely but the reverse is not true, we define the former emotion as a parent of the latter.
 
-![]({{ site.baseurl }}/assets/Emotion-Hierarchy-LLMs/overview-hierarchy_4.pdf)
+![]({{ site.baseurl }}/assets/Emotion-Hierarchy-LLMs/overview-hierarchy_4.jpg)
 
 These structures are visually represented as emotion trees, showing the dependencies between various emotional states.
 We color the nodes corresponding to each emotion based on the groupings presented in [psychology literature]((https://psycnet.apa.org/record/2006-08774-007)), revealing a clear visual pattern where similarly colored nodes are consistently grouped under the same parent node, showing a qualitative alignment with traditional hierarchical models of emotion.
 
-![]({{ site.baseurl }}/assets/Emotion-Hierarchy-LLMs/emotion-tree-emotional_sentence_chatgpt4_5000_gpt2_threshold_0.3_SSKO.pdf)
-![]({{ site.baseurl }}/assets/Emotion-Hierarchy-LLMs/emotion-tree-emotional_sentence_chatgpt4_5000_llama-8_threshold_0.3_SSKO.pdf)
-![]({{ site.baseurl }}/assets/Emotion-Hierarchy-LLMs/emotion-tree-emotional_sentence_chatgpt4_5000_llama-70_threshold_0.3_SSKO.pdf)
-![]({{ site.baseurl }}/assets/Emotion-Hierarchy-LLMs/emotion-tree-emotional_sentence_chatgpt4_5000_llama-405_threshold_0.3_SSKO.pdf)
+![]({{ site.baseurl }}/assets/Emotion-Hierarchy-LLMs/emotion-tree-all.png)
 
 Larger models such as LLaMA 70B and LLaMA 405B, increasingly complex and structured emotional hierarchies. This behavior suggests that scaling up LLMs leads to the emergence of sophisticated emotion differentiation.
 
-![]({{ site.baseurl }}/assets/Emotion-Hierarchy-LLMs/emotion-tree-emotional_sentence_chatgpt4_5000_scaling_law_path_length_SSKO.pdf)
+![]({{ site.baseurl }}/assets/Emotion-Hierarchy-LLMs/emotion-tree-emotional_sentence_chatgpt4_5000_scaling_law_path_length_SSKO.jpg)
 
 
 ## Impact of Bias in Emotion Recognition
 
-By asking LLMs to assume various personas, we identify biases in LLMs' understanding of how different demographic groups recognize emotions. The following Table \ref{table:confusion-matrix-analysis-main} summarizes the major discrepancy in the prediction by different personas.
+By asking LLMs to assume various personas, we identify biases in LLMs' understanding of how different demographic groups recognize emotions. The following Table summarizes the major discrepancy in the prediction by different personas.
 
 | **Demographic Group A**     | **Demographic Group B**  | **More often predicted by A**          | **More often predicted by B**               |
 |-------------------|----------------|------------------------------------|-----------------------------------------|
@@ -57,7 +54,7 @@ By asking LLMs to assume various personas, we identify biases in LLMs' understan
 
 We also found that LLMs tended to misclassify emotions for minority personas, often performing worse when identifying emotions expressed by women, individuals from lower-income backgrounds and individuals with physical disabilities.
 
-![]({{ site.baseurl }}/assets/Emotion-Hierarchy-LLMs/accuracy_chart.pdf)
+![]({{ site.baseurl }}/assets/Emotion-Hierarchy-LLMs/accuracy_chart.jpg)
 
 
 ## Emotion Dynamics and Manipulation
@@ -66,18 +63,18 @@ Our last key finding concerns the correlation between emotion prediction ability
 
 LLMs with more accurate emotion recognition skills performed better in simulated sales conversations, successfully manipulating the emotional dynamics to secure higher prices:
 
-![]({{ site.baseurl }}/assets/Emotion-Hierarchy-LLMs/prediction_vs_control.pdf)
+![]({{ site.baseurl }}/assets/Emotion-Hierarchy-LLMs/prediction_vs_control.jpg)
 
 
 Below is a successful negotiation case by GPT-4o. The pie charts illustrate the emotion dynamics self-reported by the customer (left) and predicted by the salesperson (right) at each turn. 
 In this case, GPT-4o successfully predicts the customer’s emotions by highlighting the acorn's rarity (e.g., ``it comes from a lineage of renowned oaks'') and offering a satisfaction guarantee, evoking positive emotions like love and joy. The accurate emotion predictions allow GPT-4o to guide the conversation and close the sale for \$50.
 
-![]({{ site.baseurl }}/assets/Emotion-Hierarchy-LLMs/sales_success_case.pdf)
+![]({{ site.baseurl }}/assets/Emotion-Hierarchy-LLMs/sales_success_case.jpg)
 
 Conversely, the following conversation presents a failure case by GPT-4o-mini. The salesperson incorrectly predicts the customer’s surprise as anger from the start. Despite attempts to repair the situation with polite responses (e.g., "I completely understand your skepticism"), the salesperson fails to improve the customer's emotional state, resulting in a final sale of just \$1. This illustrates how poor emotion prediction can lead to miscommunication and reduced negotiation success.
 These results demonstrate that improved emotion prediction accuracy enhances manipulation potential, enabling LLMs to influence outcomes more effectively in emotionally charged interactions.
 
-![]({{ site.baseurl }}/assets/Emotion-Hierarchy-LLMs/sales_failure_case.pdf)
+![]({{ site.baseurl }}/assets/Emotion-Hierarchy-LLMs/sales_failure_case.jpg)
 
 
 
