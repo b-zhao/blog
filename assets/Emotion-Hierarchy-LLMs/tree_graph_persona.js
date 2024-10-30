@@ -17,7 +17,7 @@ treeDatas_persona.forEach(function(treeData_persona, index2) {
         .text(treeData_persona.label);
 });
 
-var width2 = 800;
+var width2 = 1200;
 var height2 = 350;
 
 var currentIndex_persona = 0;
