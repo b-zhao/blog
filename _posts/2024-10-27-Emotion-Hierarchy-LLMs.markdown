@@ -44,7 +44,7 @@ categories: paper
             font-weight: bold;
         }
     </style>
-<head>
+</head>
 <div id="body">
 <div id="chart0"></div>
 <script src="https://phys-ai.github.io/blog/assets/Emotion-Hierarchy-LLMs/tree_data.js"></script>
