@@ -17,8 +17,8 @@ treeDatas_persona.forEach(function(treeData_persona, index2) {
         .text(treeData_persona.label);
 });
 
-var width2 = 1450;
-var height2 = 430;
+var width2 = 1300;
+var height2 = 400;
 
 var currentIndex_persona = 0;
 d3.select("#chart2").selectAll("*").remove();
@@ -106,7 +106,7 @@ function drawTree_p(graphData_p) {
         .attr("transform", d => `translate(${d.initialX}, ${d.initialY})`);
 
     node_p.append("circle")
-        .attr("r", 10)
+        .attr("r", 8.5)
         .style("opacity", 0.7)
         .style("fill", d => d.color)
         .style("stroke", "none");
