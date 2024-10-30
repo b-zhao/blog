@@ -144,6 +144,8 @@ These emotion trees visually illustrate the dependencies between various emotion
 <div id="chart0"></div>
 <script src="https://phys-ai.github.io/blog/assets/Emotion-Hierarchy-LLMs/tree_data.js"></script>
 <script src="https://phys-ai.github.io/blog/assets/Emotion-Hierarchy-LLMs/tree_graph.js"></script>
+<!-- ![]({{ site.baseurl }}/assets/Emotion-Hierarchy-LLMs/emotion-tree-all.png) -->
+
 
 As the scale of the language model (LLM) increases, the hierarchical representations of emotions become more intricate, displaying groupings that resonate with established psychological models. To extract these hierarchies, we generated 5,000 situational prompts with GPT-4o across four different models: GPT-2 (1.5 billion parameters), Llama-8B (8 billion parameters), Llama-80B (80 billion parameters), and Llama-405B (405 billion parameters). You can explore each model's unique emotion hierarchy using the dropdown menu. 
 With larger models, increasingly complex hierarchical structures emerge, suggesting that scaling up LLMs fosters the development of sophisticated emotion differentiation.
