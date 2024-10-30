@@ -12,7 +12,7 @@ treeDatas.forEach(function(treeData, index0) {
         .text(treeData.label);
 });
 
-var width0 = 1200;
+var width0 = 1050;
 var height0 = 350;
 
 var currentIndex = 0;
