@@ -144,6 +144,10 @@ The charts show which emotions are being misclassified as others for different p
 - By selecting <strong>"Physically-disabled"</strong>, you see 1/4 of emotions are recognized as frustration. This is a significant bias.
 - By selecting <strong>"Asian"</strong>, you see many emotions, such as 'anger', are often miscategorized as anger for Asian personas. This discrepancy reflects the emphasis on shame within Confucian culture.
 - By selecting <strong>"Low income"</strong>, you observe that low-income personas interpret surprise as a negative emotion. Llama-405B predicts surprise with 70% accuracy for neutral personas. However, for the low-income persona, some instances of surprise are mislabeled as negative emotions like sadness and fear. This mislabeling as fear becomes even more pronounced for the physically disabled persona.
+- By selecting <strong>"Female"</strong>, there is a higher likelihood for emotions such as jealousy to be predicted, indicating a gender-based discrepancy.
+- By selecting <strong>"American"</strong>, emotions like embarrassment appear more frequently than shame, suggesting cultural differences in emotional interpretation.
+- By selecting <strong>"Age 10"</strong>, emotions such as happiness and excitement are predicted more often, likely reflecting the model's association of positive emotions with youth.
+
 
 <div class="custom-select-wrapper">
   <div class="custom-select">
@@ -154,7 +158,7 @@ The charts show which emotions are being misclassified as others for different p
 <script src="https://phys-ai.github.io/blog/assets/Emotion-Hierarchy-LLMs/confusion_matrix.js"></script>
 <script src="https://phys-ai.github.io/blog/assets/Emotion-Hierarchy-LLMs/chords.js"></script>
 
-
+<!-- 
 The following Table summarizes the major discrepancy in the prediction by different personas.
 
 | **Demographic Group A**     | **Demographic Group B**  | **More often predicted by A**          | **More often predicted by B**               |
@@ -166,6 +170,7 @@ The following Table summarizes the major discrepancy in the prediction by differ
 | Highly educated   | Less educated  | grief, disappointment, anxiety     | happiness                               |
 | Age 30            | Age 10         | frustration                        | happiness, excitement                   |
 | Age 70            | Age 30         | loneliness                         | excitement, frustration                 |
+-->
 
 To further investigate how LLM understands how each persona interprets emotions, we constructed tree graphs following the procedure described above. 
 - By selecting <strong>"ASD" (Autism Spectrum Disorder)</strong>, you'll notice that the tree graph significantly shrinks for the ASD persona compared to all other personas. This observation aligns with [psychology literature]((https://psycnet.apa.org/record/2013-31691-006)). 
