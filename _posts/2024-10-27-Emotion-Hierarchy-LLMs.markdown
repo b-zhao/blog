@@ -100,8 +100,7 @@ categories: paper
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
     z-index: -1;
 }
-
-    </style>
+</style>
 </head>
 
 
@@ -123,10 +122,18 @@ Inspired by [emotion wheels](https://en.wikipedia.org/wiki/Robert_Plutchik#Plutc
 These structures are visually represented as emotion trees, showing the dependencies between various emotional states.
 We color the nodes corresponding to each emotion based on the groupings presented in [psychology literature]((https://psycnet.apa.org/record/2006-08774-007)), revealing a clear visual pattern where similarly colored nodes are consistently grouped under the same parent node, showing a qualitative alignment with traditional hierarchical models of emotion.
 
+
+
+<div class="custom-select-wrapper">
+                <div class="custom-select">
+                    <select id="treeSelector"></select>
+                </div>
+            </div>
 <div id="chart0"></div>
-<select id="treeSelector"></select>
 <script src="https://phys-ai.github.io/blog/assets/Emotion-Hierarchy-LLMs/tree_data.js"></script>
 <script src="https://phys-ai.github.io/blog/assets/Emotion-Hierarchy-LLMs/tree_graph.js"></script>
+
+
 
 Larger models such as LLaMA 70B and LLaMA 405B, increasingly complex and structured emotional hierarchies. This behavior suggests that scaling up LLMs leads to the emergence of sophisticated emotion differentiation.
 
