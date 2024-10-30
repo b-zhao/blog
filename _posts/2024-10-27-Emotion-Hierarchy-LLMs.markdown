@@ -1,3 +1,7 @@
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+
 ---
 layout: post
 title:  "Emergence of Hierarchical Emotion Representations in Large Language Models"
