@@ -14,8 +14,36 @@ categories: paper
 <br>
 
 <head>
-<script src="https://d3js.org/d3.v3.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://d3js.org/d3.v3.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+      <style>
+        .node circle {
+            stroke: #000;
+            stroke-width: 1.5px;
+        }
+        .node text {
+            pointer-events: none;
+            font-size: 10px;
+            fill: #333;
+        }
+        .link {
+            stroke: #999;
+            stroke-opacity: 0.6;
+        }
+        .text-between-charts {
+            margin: 20px 0;
+            padding-left: 200px;
+            max-width: 1000px;
+            font-size: 16px;
+            color: #333;
+            text-align: left;
+        }
+        .bold-text {
+            font-weight: bold;
+        }
+    </style>
 <head>
 <div id="body">
 <div id="chart0"></div>
