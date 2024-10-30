@@ -100,10 +100,16 @@ categories: paper
     box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
     z-index: -1;
 }
-#chart0, #chart2 {
+#chart0 {
     position: relative;
-    left: -30%;
-    width: 160%;
+    left: -20%;
+    width: 140%;
+    overflow: visible;
+}
+#chart2 {
+    position: relative;
+    left: -40%;
+    width: 180%;
     overflow: visible;
 }
 </style>
