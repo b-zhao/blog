@@ -12,8 +12,8 @@ treeDatas.forEach(function(treeData, index0) {
         .text(treeData.label);
 });
 
-var width0 = 1400;
-var height0 = 300;
+var width0 = 1200;
+var height0 = 350;
 
 var currentIndex = 0;
 d3.select("#chart0").selectAll("*").remove();
