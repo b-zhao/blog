@@ -43,7 +43,7 @@ categories: paper
         .bold-text {
             font-weight: bold;
         }
-	      .custom-select-wrapper {
+	.custom-select-wrapper {
     position: relative;
     display: inline-block;
     width: 200px;
@@ -101,7 +101,9 @@ categories: paper
     z-index: -1;
 }
 #chart0 {
-    width: 150%;
+    position: relative;
+    left: -30%;
+    width: 160%;
     overflow: visible;
 }
 </style>
