@@ -13,6 +13,11 @@ categories: paper
 ---
 <br>
 
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="assets/Emotion-Hierarchy-LLMs/tree_data.js"></script>
+<script src="assets/Emotion-Hierarchy-LLMs/tree_graph.js"></script>
+
 As conversational AI agents become more common, it is crucial to understand how large language models (LLMs) represent and predict human emotions. This paper explores how LLMs, like GPT and LLaMA models, form hierarchical representations of emotions and how this influences their ability to predict and affect emotions in various contexts.
 
 To advance both the scientific understanding and ethical considerations of emotion modeling in LLMs, our study shows that:
@@ -98,8 +103,5 @@ We hope to continue contributing to the understanding of how LLMs model emotions
 }
 {% endhighlight %}
 
-<script src="https://d3js.org/d3.v3.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="assets/Emotion-Hierarchy-LLMs/tree_data.js"></script>
-<script src="assets/Emotion-Hierarchy-LLMs/tree_graph.js"></script>
+
 
