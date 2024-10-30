@@ -125,10 +125,10 @@ We color the nodes corresponding to each emotion based on the groupings presente
 
 
 <div class="custom-select-wrapper">
-                <div class="custom-select">
-                    <select id="treeSelector"></select>
-                </div>
-            </div>
+   <div class="custom-select">
+	<select id="treeSelector"></select>
+   </div>
+</div>
 <div id="chart0"></div>
 <script src="https://phys-ai.github.io/blog/assets/Emotion-Hierarchy-LLMs/tree_data.js"></script>
 <script src="https://phys-ai.github.io/blog/assets/Emotion-Hierarchy-LLMs/tree_graph.js"></script>
@@ -142,7 +142,19 @@ Larger models such as LLaMA 70B and LLaMA 405B, increasingly complex and structu
 
 ## Impact of Bias in Emotion Recognition
 
-By asking LLMs to assume various personas, we identify biases in LLMs' understanding of how different demographic groups recognize emotions. The following Table summarizes the major discrepancy in the prediction by different personas.
+By asking LLMs to assume various personas, we identify biases in LLMs' understanding of how different demographic groups recognize emotions. 
+
+<div class="custom-select-wrapper">
+                <div class="custom-select">
+                    <select id="matrixSelector"></select>
+                </div>
+            </div>
+            <div id="chart1"></div>
+ <script src="confusion_matrix.js"></script>
+ <script src="chords.js"></script>
+
+
+The following Table summarizes the major discrepancy in the prediction by different personas.
 
 | **Demographic Group A**     | **Demographic Group B**  | **More often predicted by A**          | **More often predicted by B**               |
 |-------------------|----------------|------------------------------------|-----------------------------------------|
