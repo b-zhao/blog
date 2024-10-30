@@ -43,6 +43,64 @@ categories: paper
         .bold-text {
             font-weight: bold;
         }
+	      .custom-select-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+}
+.custom-select {
+    position: relative;
+    display: block;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.custom-select select {
+    appearance: none;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+}
+.custom-select::after {
+    content: "\25BC"; /* Unicode for a downward arrow */
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: #666;
+    font-size: 14px;
+}
+.custom-select select:hover {
+    background: #e8e8e8;
+}
+.custom-select select:focus {
+    border-color: #888;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.custom-select-wrapper::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: #f0f0f0;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: -1;
+}
+
     </style>
 </head>
 
@@ -69,7 +127,6 @@ We color the nodes corresponding to each emotion based on the groupings presente
 <select id="treeSelector"></select>
 <script src="https://phys-ai.github.io/blog/assets/Emotion-Hierarchy-LLMs/tree_data.js"></script>
 <script src="https://phys-ai.github.io/blog/assets/Emotion-Hierarchy-LLMs/tree_graph.js"></script>
-[//]: # ![]({{ site.baseurl }}/assets/Emotion-Hierarchy-LLMs/emotion-tree-all.png)
 
 Larger models such as LLaMA 70B and LLaMA 405B, increasingly complex and structured emotional hierarchies. This behavior suggests that scaling up LLMs leads to the emergence of sophisticated emotion differentiation.
 
