@@ -150,8 +150,8 @@ By asking LLMs to assume various personas, we identify biases in LLMs' understan
   </div>
 </div>
 <div id="chart1"></div>
-<script src="confusion_matrix.js"></script>
-<script src="chords.js"></script>
+<script src="https://phys-ai.github.io/blog/assets/Emotion-Hierarchy-LLMs/confusion_matrix.js"></script>
+<script src="https://phys-ai.github.io/blog/assets/Emotion-Hierarchy-LLMs/chords.js"></script>
 
 
 The following Table summarizes the major discrepancy in the prediction by different personas.
@@ -172,8 +172,8 @@ The following Table summarizes the major discrepancy in the prediction by differ
  </div>
 </div>
 <div id="chart2"></div>
-<script src="tree_data_persona.js"></script>
-<script src="tree_graph_persona.js"></script>
+<script src="https://phys-ai.github.io/blog/assets/Emotion-Hierarchy-LLMs/tree_data_persona.js"></script>
+<script src="https://phys-ai.github.io/blog/assets/Emotion-Hierarchy-LLMs/tree_graph_persona.js"></script>
 
 
 We also found that LLMs tended to misclassify emotions for minority personas, often performing worse when identifying emotions expressed by women, individuals from lower-income backgrounds and individuals with physical disabilities.
