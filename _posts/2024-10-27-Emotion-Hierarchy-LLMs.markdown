@@ -13,11 +13,15 @@ categories: paper
 ---
 <br>
 
+<head>
 <script src="https://d3js.org/d3.v3.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<head>
+<div id="body">
 <div id="chart0"></div>
 <script src="https://phys-ai.github.io/blog/assets/Emotion-Hierarchy-LLMs/tree_data.js"></script>
 <script src="https://phys-ai.github.io/blog/assets/Emotion-Hierarchy-LLMs/tree_graph.js"></script>
+</div>
 
 As conversational AI agents become more common, it is crucial to understand how large language models (LLMs) represent and predict human emotions. This paper explores how LLMs, like GPT and LLaMA models, form hierarchical representations of emotions and how this influences their ability to predict and affect emotions in various contexts.
 
