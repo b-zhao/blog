@@ -12,7 +12,7 @@ treeDatas.forEach(function(treeData, index0) {
         .text(treeData.label);
 });
 
-var width0 = 1050;
+var width0 = 1000;
 var height0 = 350;
 
 var currentIndex = 0;
@@ -102,7 +102,7 @@ function drawTree(graphData) {
         .attr("transform", d => `translate(${d.initialX}, ${d.initialY})`);
 
     node.append("circle")
-        .attr("r", 10)
+        .attr("r", 9)
         .style("opacity", 0.7)
         .style("fill", d => d.color)
         .style("stroke", "none");
