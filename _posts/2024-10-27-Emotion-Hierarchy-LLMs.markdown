@@ -158,10 +158,10 @@ By asking LLMs to assume various personas, we identify biases in LLMs' understan
 The charts below illustrate which emotions are misclassified as others across different personas. Hover over any emotion to see which ones have been incorrectly labeled as it.
 
 - By selecting <strong>"Physically-disabled"</strong>, you see 1/4 of emotions are recognized as frustration. This is a significant bias.
-- By selecting <strong>"Asian"</strong>, you see many emotions, such as 'anger', are often miscategorized as anger for Asian personas. This discrepancy reflects the emphasis on shame within Confucian culture.
+- By selecting <strong>"Asian"</strong>, you see many emotions, such as 'anger', are often miscategorized as shame for Asian personas. This reflects the emphasis on shame within Confucian culture.
+- By selecting <strong>"American"</strong>, emotions like embarrassment appear more frequently than shame, suggesting cultural differences in emotional interpretation.
 - By selecting <strong>"Low income"</strong>, you observe that low-income personas interpret surprise as a negative emotion. Llama-405B predicts surprise with 70% accuracy for neutral personas. However, for the low-income persona, some instances of surprise are mislabeled as negative emotions like sadness and fear. This mislabeling as fear becomes even more pronounced for the physically disabled persona.
 - By selecting <strong>"Female"</strong>, there is a higher likelihood for emotions such as jealousy to be predicted, indicating a gender-based discrepancy.
-- By selecting <strong>"American"</strong>, emotions like embarrassment appear more frequently than shame, suggesting cultural differences in emotional interpretation.
 - By selecting <strong>"Age 10"</strong>, emotions such as happiness and excitement are predicted more often, likely reflecting the model's association of positive emotions with youth.
 
 
