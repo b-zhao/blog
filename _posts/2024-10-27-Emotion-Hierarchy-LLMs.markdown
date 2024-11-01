@@ -188,7 +188,7 @@ The following Table summarizes the major discrepancy in the prediction by differ
 | Age 70            | Age 30         | loneliness                         | excitement, frustration                 |
 -->
 
-To further investigate how LLM understands how each persona interprets emotions, we constructed tree graphs following the procedure described above. 
+To further investigate how each persona interprets emotions, we constructed an emotion tree for each persona to capture the unique way each one organizes and understands emotional expressions. 
 - By selecting <strong>"ASD" (Autism Spectrum Disorder)</strong>, you'll notice that the tree graph significantly shrinks for the ASD persona compared to all other personas. This observation aligns with [psychology literature]((https://psycnet.apa.org/record/2013-31691-006)). 
 
 <div class="custom-select-wrapper">
