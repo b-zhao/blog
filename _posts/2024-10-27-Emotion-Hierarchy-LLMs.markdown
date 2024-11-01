@@ -153,6 +153,9 @@ Larger models such as LLaMA 70B and LLaMA 405B, increasingly complex and structu
 
 ## Impact of Bias in Emotion Recognition
 Building on our understanding of emotion representations in LLMs, we examine whether these representations and their resulting emotion predictions are influenced by demographic attributes such as gender and socioeconomic status. 
+
+![]({{ site.baseurl }}/assets/Emotion-Hierarchy-LLMs/pipeline_emotion_prediction.jpg)
+
 By asking LLMs to assume various personas, we identify biases in LLMs' understanding of how different demographic groups recognize emotions. 
 
 The charts below illustrate which emotions are misclassified as others across different personas. Hover over any emotion to see which ones have been incorrectly labeled as it.
