@@ -154,7 +154,8 @@ Larger models such as LLaMA 70B and LLaMA 405B, increasingly complex and structu
 ## Impact of Bias in Emotion Recognition
 Building on our understanding of emotion representations in LLMs, we examine whether these representations and their resulting emotion predictions are influenced by demographic attributes such as gender and socioeconomic status. 
 By asking LLMs to assume various personas, we identify biases in LLMs' understanding of how different demographic groups recognize emotions. 
-The charts show which emotions are being misclassified as others for different personas. You can hover over an emotion to see which ones have been incorrectly labeled as that emotion. 
+
+The charts below illustrate which emotions are misclassified as others across different personas. Hover over any emotion to see which ones have been incorrectly labeled as it.
 
 - By selecting <strong>"Physically-disabled"</strong>, you see 1/4 of emotions are recognized as frustration. This is a significant bias.
 - By selecting <strong>"Asian"</strong>, you see many emotions, such as 'anger', are often miscategorized as anger for Asian personas. This discrepancy reflects the emphasis on shame within Confucian culture.
