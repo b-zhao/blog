@@ -134,7 +134,7 @@ Inspired by [emotion wheels](https://en.wikipedia.org/wiki/Robert_Plutchik#Plutc
 These structures are visually represented as emotion trees, showing the dependencies between various emotional states.
 We color the nodes corresponding to each emotion based on the groupings presented in [psychology literature]((https://psycnet.apa.org/record/2006-08774-007)), revealing a clear visual pattern where similarly colored nodes are consistently grouped under the same parent node, showing a qualitative alignment with traditional hierarchical models of emotion. 
 
-Explore the unique emotion hierarchy of each model below. Choose from four options in the dropdown menu: GPT-2 (1.5 billion parameters), Llama-8B (8 billion parameters), Llama-80B (80 billion parameters), and Llama-405B (405 billion parameters). As model size increases, the emotion hierarchies become more complex and nuanced.
+Explore the emotion hierarchy of each model below. Choose from four options in the dropdown menu: GPT-2 (1.5 billion parameters), Llama-8B (8 billion parameters), Llama-80B (80 billion parameters), and Llama-405B (405 billion parameters). As model size increases, the emotion hierarchies become more complex and nuanced.
 
 <div class="custom-select-wrapper">
    <div class="custom-select">
